@@ -12,7 +12,7 @@ public class StudentController {
 
     private List<Student> students = new ArrayList<>(List.of(
             new Student(1L, "Ahmed", "SE4111", 95.0),
-            new Student(2L, "Sara", "SE4111", 98.5)));
+            new Student(2L, "Sara", "SE4111", 100)));
 
     @GetMapping("/students")
     public List<Student> getAll() {
